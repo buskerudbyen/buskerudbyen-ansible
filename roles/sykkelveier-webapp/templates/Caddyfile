@@ -1,0 +1,4 @@
+sykkelveier.no {
+	root * /var/test/
+  file_server browse
+}

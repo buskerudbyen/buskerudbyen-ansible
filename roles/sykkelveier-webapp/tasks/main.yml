@@ -1,0 +1,17 @@
+---
+- name: Create a directory if it does not exist
+  ansible.builtin.file:
+    path: /var/www
+    state: directory
+    owner: caddy
+    group: caddy
+    mode: '0755'
+
+- name: Caddyfile
+  ansible.builtin.template:
+    src: templates/Caddyfile
+    dest: /etc/caddy/webapp.caddy
+    owner: caddy
+    group: caddy
+    mode: 0660
+  notify: Restart caddy

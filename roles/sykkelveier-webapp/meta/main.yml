@@ -1,0 +1,5 @@
+---
+collections:
+
+dependencies:
+  - role: leonardehrenfried.baseline.caddyfile
