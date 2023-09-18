@@ -25,7 +25,7 @@
 - name: Caddyfile
   ansible.builtin.template:
     src: templates/Caddyfile
-    dest: /etc/caddy/Caddyfile
+    dest: /etc/caddy/snow-plow-service.caddy
     owner: caddy
     group: caddy
     mode: 0660

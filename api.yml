@@ -8,5 +8,5 @@
     - role: devsec.hardening.ssh_hardening
     - role: leonardehrenfried.baseline.base
     - role: leonardehrenfried.baseline.journald
-    - api
+    - snow-plow-service
 
