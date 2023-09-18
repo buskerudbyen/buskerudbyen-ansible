@@ -1,4 +1,8 @@
+www.sykkelveier.no {
+  redir https://sykkelveier.no{uri}
+}
+
 sykkelveier.no {
-	root * /var/www/
+  root * /var/www/
   file_server browse
 }

@@ -7,11 +7,11 @@ collections:
 - name: community.dns
   version: 2.4.2
 # directory containing the collection
-- source: ../../ansible-baseline
-  type: dir
+#- source: ../../ansible-baseline
+#  type: dir
 
-#- name: leonardehrenfried.baseline
-#  version: 1.0.13
+- name: leonardehrenfried.baseline
+  version: 1.0.14
 - name: devsec.hardening
   version: 8.8.0
 
