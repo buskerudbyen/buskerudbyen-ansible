@@ -9,6 +9,7 @@ provision: galaxy-install
 	${PLAYBOOK_CMD} -i hosts.ini api.yml
 
 galaxy-install:
+	rm -rf ~/.ansible/collections/ansible_collections/leonardehrenfried/
 	ansible-galaxy collection install -r requirements.yml
 	ansible-galaxy install -r requirements.yml
 

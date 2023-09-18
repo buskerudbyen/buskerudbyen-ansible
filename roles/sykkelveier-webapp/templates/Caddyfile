@@ -1,4 +1,4 @@
 sykkelveier.no {
-	root * /var/test/
+	root * /var/www/
   file_server browse
 }
