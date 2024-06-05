@@ -1,0 +1,22 @@
+{
+  "vectorTiles": {
+    "layers": [
+      {
+        "name": "bikely",
+        "type": "VehicleParking",
+        "mapper": "Stadtnavi",
+        "maxZoom": 20,
+        "minZoom": 6,
+        "cacheMaxSeconds": 30
+      }
+    ]
+  },
+  "updaters": [
+    {
+      "type": "vehicle-parking",
+      "feedId": "bikeep",
+      "sourceType": "bikeep",
+      "url": "https://services.bikeep.com/location/v1/public-areas/no-baia-mobility/locations"
+    }
+  ]
+}

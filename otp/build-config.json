@@ -1,0 +1,10 @@
+{
+  "osm": [
+    {
+      "source": "https://leonard.io/otp/norway-all-corners.osm.pbf",
+      "timeZone": "Europe/Oslo",
+      "osmTagMapping": "norway"
+    }
+  ],
+  "islandWithoutStopsMaxSize": 0
+}

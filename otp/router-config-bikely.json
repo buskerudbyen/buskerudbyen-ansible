@@ -1,0 +1,22 @@
+{
+  "vectorTiles": {
+    "layers": [
+      {
+        "name": "bikely",
+        "type": "VehicleParking",
+        "mapper": "Stadtnavi",
+        "maxZoom": 20,
+        "minZoom": 6,
+        "cacheMaxSeconds": 30
+      }
+    ]
+  },
+  "updaters": [
+    {
+      "type": "vehicle-parking",
+      "feedId": "bikely",
+      "sourceType": "bikely",
+      "url" : "https://api.safebikely.com/api/services/app/Location/GetPins"
+    }
+  ]
+}
