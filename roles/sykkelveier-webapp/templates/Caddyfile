@@ -6,3 +6,8 @@ sykkelveier.no {
   root * /var/www/
   file_server browse
 }
+
+widget.sykkelveier.no {
+  root * /var/www/widget
+  file_server browse
+}
