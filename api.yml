@@ -10,4 +10,5 @@
     - role: leonardehrenfried.baseline.journald
     - sykkelveier-webapp
     - snow-plow-service
+    - otp
 

@@ -1,0 +1,7 @@
+{% for p in tile_providers %}
+{{ p.name }}.cycling-norway.leonard.io {
+  reverse_proxy /* localhost:{{ p.port }} {
+    header_down Access-Control-Allow-Origin *
+  }
+}
+{% endfor %}

@@ -15,6 +15,12 @@ server_name: "cycling-norway"
 
 snow_plow_service_image: "ghcr.io/buskerudbyen/snow-plow-service:2023-05-02T11-18"
 
+tile_providers:
+  - name: bikely
+    port: 8082
+  - name: bikeep
+    port: 8083
+
 # Podman
 podman_prune_max_age: 72h
 podman_prune_users:
