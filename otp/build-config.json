@@ -1,7 +1,17 @@
 {
   "osm": [
     {
-      "source": "https://leonard.io/otp/norway-all-corners.osm.pbf",
+      "source": "https://leonard.io/otp/norway-west.pbf",
+      "timeZone": "Europe/Oslo",
+      "osmTagMapping": "norway"
+    },
+    {
+      "source": "https://leonard.io/otp/norway-northeast.pbf",
+      "timeZone": "Europe/Oslo",
+      "osmTagMapping": "norway"
+    },
+    {
+      "source": "https://leonard.io/otp/norway-south.pbf",
       "timeZone": "Europe/Oslo",
       "osmTagMapping": "norway"
     }
