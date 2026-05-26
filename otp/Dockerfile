@@ -1,4 +1,4 @@
-FROM docker.io/opentripplanner/opentripplanner:2.6.0_2024-06-04T10-07
+FROM docker.io/lehrenfried/opentripplanner:bikely
 
 ARG PROVIDER
 

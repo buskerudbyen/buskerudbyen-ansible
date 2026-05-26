@@ -16,5 +16,7 @@
       "osmTagMapping": "norway"
     }
   ],
+  "staticBikeParkAndRide": false,
+  "staticParkAndRide": false,
   "islandWithoutStopsMaxSize": 0
 }
